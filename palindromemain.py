@@ -5,7 +5,7 @@
 #if yes or not print the outcome and the result
 
 # declaring list and string to hold the userinput
-print("For words enter with spacing between letters for sentences and phrases type it in normally")
+print("For words, enter with spacing between letters, for sentences and phrases type it in normally")
 userInputList =[]
 userInput = input("Enter the word you would like to test today: ")
 userInputList=userInput.split()
@@ -18,3 +18,5 @@ if reverselist == userInputList:
     print("The input is a palindrome")
 else:
     print("The input is not a plaindrome")
+    print(f"Original: {userInputList}\nReversed: {reverselist}")
+    print("Serwaah stole this code from me and I am not happy about it")
